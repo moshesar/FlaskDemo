@@ -105,7 +105,7 @@ def delete_all_product():
 # Home
 @app.route('/', methods=['GET'])
 def get():
-    return jsonify({'msg' : 'Hello World'})
+    return "Welcome to My App"
 
 #Run Server
 
