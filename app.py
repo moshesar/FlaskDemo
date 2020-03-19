@@ -110,7 +110,7 @@ def get():
 #Run Server
 
 def init_app():
-    app.run(debug=True)
+    return app.run(debug=True)
 
 
 if __name__ == '__main__':
